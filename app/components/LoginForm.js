@@ -6,7 +6,7 @@ import { useState } from "react";
 import { toast } from "react-toastify";
 import { useRouter } from "next/navigation";
 import Cookies from "js-cookie";
-import { API_URL } from "../config";
+import { API_URL } from "../config/index";
 
 function LoginForm({ adminId, posterId }) {
   const router = useRouter();

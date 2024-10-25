@@ -15,18 +15,6 @@ export default function Home({ adminId, posterId }) {
                 alt="megaeprsonals"
                 className="w-full h-full object-cover"
               />
-              <div className="flex   absolute top-[55%] left-[50%] translate-x-[-50%] ">
-                <input
-                  placeholder="Search"
-                  className=" w-[200px] md:w-[400px] px-4 py-2 rounded-md "
-                />
-                <button
-                  className="bg-blue-700 text-white px-4 py-2 rounded-md ml-2"
-                  onClick={() => setNext(true)}
-                >
-                  Search
-                </button>
-              </div>
             </div>
             <div className=" mt-5">
               <img
